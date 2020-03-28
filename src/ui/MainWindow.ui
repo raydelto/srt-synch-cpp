@@ -29,8 +29,5 @@
    </widget>
   </widget>
  </widget>
- <resources>
-  <include location="../example.qrc"/>
- </resources>
  <connections/>
 </ui>
