@@ -11,7 +11,7 @@ include(QtCommon)
 
 # Basic information about project
 
-project(example VERSION 1.0)
+project(srtsynch VERSION 1.0)
 
 # Set PROJECT_VERSION_PATCH and PROJECT_VERSION_TWEAK to 0 if not present, needed by add_project_meta
 fix_project_version()
@@ -23,6 +23,8 @@ set(IDENTIFIER "org.raydelto.StrSynch")
 
 set(SOURCE_FILES
     src/ui/MainWindow.cpp
+    src/io/Time.cpp
+    src/io/Synchronizer.cpp
     src/main.cpp
 )
 
